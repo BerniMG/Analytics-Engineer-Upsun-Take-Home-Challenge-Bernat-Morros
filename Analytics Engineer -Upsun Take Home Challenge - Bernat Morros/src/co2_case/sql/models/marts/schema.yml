@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: fct_project_emissions_exact
+    tests:
+      - dbt_utils.expression_is_true:
+          expression: "allocated_emissions_kgco2 >= 0"
+
+  - name: fct_unallocated_bill_overhead
+    columns:
+      - name: allocation_method
+        tests:
+          - accepted_values:
+              values: ["shared_overhead"]

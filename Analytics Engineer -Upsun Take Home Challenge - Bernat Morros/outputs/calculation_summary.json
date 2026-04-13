@@ -1,0 +1,11 @@
+{
+  "projects_with_exact_allocation":2564.0,
+  "weighted_input_share_on_exact_projects":0.990704502,
+  "top_10_project_concentration":0.2436310921,
+  "top_1pct_project_concentration":0.4982702198,
+  "top_5pct_project_concentration":0.6739643905,
+  "current_intensity_per_project":180.6320827929,
+  "current_active_project_intensity":183.6407602977,
+  "flat_target_intensity_per_project":150.5216614407,
+  "required_intensity_reduction_share":0.1666947581
+}

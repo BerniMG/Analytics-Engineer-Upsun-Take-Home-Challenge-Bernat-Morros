@@ -1,0 +1,4 @@
+scenario,projects,total_emissions_kgco2,intensity_kg_per_project
+current_baseline,4944,893045.0173278842,180.63208279285683
+business_as_usual_plus_20pct_projects,5933,1071690.1472100196,180.63208279285683
+flat_absolute_emissions_target,5933,893045.0173278842,150.52166144073558

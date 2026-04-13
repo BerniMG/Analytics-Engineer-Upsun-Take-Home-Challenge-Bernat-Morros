@@ -1,0 +1,8 @@
+metric,value
+total_billed_emissions_kgco2,893045.0173278842
+exact_allocated_emissions_kgco2,559591.8877653704
+shared_overhead_emissions_kgco2,333453.12956251384
+exact_allocation_share,0.6266110631687389
+shared_overhead_share,0.3733889368312611
+projects_total,4944.0
+projects_with_positive_share,4863.0

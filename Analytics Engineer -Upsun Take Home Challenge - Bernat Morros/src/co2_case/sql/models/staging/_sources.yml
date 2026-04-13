@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: raw
+    tables:
+      - name: bill_skus
+      - name: project_sku_usage

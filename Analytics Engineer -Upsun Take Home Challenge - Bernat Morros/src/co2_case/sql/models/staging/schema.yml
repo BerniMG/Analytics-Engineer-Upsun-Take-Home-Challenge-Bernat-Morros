@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: stg_bill_skus
+    columns:
+      - name: bill_key_full_grain
+        tests: [not_null, unique]
+      - name: total_emissions_kgco2
+        tests: [not_null]
+
+  - name: stg_project_sku_usage
+    columns:
+      - name: project_id
+        tests: [not_null]
+      - name: region
+        tests: [not_null]
+      - name: project_share_of_total
+        tests: [not_null]
