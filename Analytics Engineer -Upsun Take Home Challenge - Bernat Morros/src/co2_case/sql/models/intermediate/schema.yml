@@ -1,0 +1,29 @@
+version: 2
+
+models:
+  - name: int_project_sku_weights
+    columns:
+      - name: provider
+        tests: [not_null]
+      - name: sku_description
+        tests: [not_null]
+      - name: total_project_share_for_sku
+        tests: [not_null]
+
+  - name: int_bill_match_coverage
+    columns:
+      - name: bill_key_full_grain
+        tests: [not_null, unique]
+      - name: total_emissions_kgco2
+        tests: [not_null]
+      - name: exact_match_available
+        tests: [not_null]
+
+  - name: int_region_input_share
+    columns:
+      - name: region
+        tests: [not_null, unique]
+      - name: total_input_share
+        tests: [not_null]
+      - name: matched_input_share
+        tests: [not_null]
